@@ -1,0 +1,6 @@
+framework module XJHNetworkAccessibility {
+  umbrella header "XJHNetworkAccessibility-umbrella.h"
+
+  export *
+  module * { export * }
+}

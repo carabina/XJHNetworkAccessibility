@@ -1,0 +1,23 @@
+PODS:
+  - ReactiveObjC (3.1.0)
+  - XJHNetworkAccessibility (0.1.0):
+    - ReactiveObjC (~> 3.1.0)
+
+DEPENDENCIES:
+  - XJHNetworkAccessibility (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ReactiveObjC
+
+EXTERNAL SOURCES:
+  XJHNetworkAccessibility:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  XJHNetworkAccessibility: 2aaeba0ac78bbcc1222071fa4bdf44316660b433
+
+PODFILE CHECKSUM: ece3f71dfc66e849eb4a7c2bc7b59db2f52d9ad6
+
+COCOAPODS: 1.5.3

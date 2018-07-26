@@ -1,0 +1,27 @@
+{
+  "name": "XJHNetworkAccessibility",
+  "version": "0.1.0",
+  "summary": "A iOS WiFi and cellulardata authorization detective Manager.",
+  "description": "帮助解决app的wifi或者蜂窝移动数据授权检测模块",
+  "homepage": "https://github.com/许君浩/XJHNetworkAccessibility",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "许君浩": "cocoadogs@163.com"
+  },
+  "source": {
+    "git": "https://github.com/许君浩/XJHNetworkAccessibility.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "XJHNetworkAccessibility/Classes/**/*",
+  "dependencies": {
+    "ReactiveObjC": [
+      "~> 3.1.0"
+    ]
+  }
+}
