@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XJHNetworkAccessibility_Example' do
+  pod 'XJHNetworkAccessibility', :path => '../'
+
+  target 'XJHNetworkAccessibility_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
