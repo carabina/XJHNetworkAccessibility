@@ -17,13 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = '帮助解决app的wifi或者蜂窝移动数据授权检测模块'
+  s.description      = 'A iOS WiFi and cellulardata authorization detective Manager.'
 
   s.homepage         = 'https://github.com/cocoadogs/XJHNetworkAccessibility'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '许君浩' => 'cocoadogs@163.com' }
-  s.source           = { :git => 'https://github.com/许君浩/XJHNetworkAccessibility.git', :tag => s.version.to_s }
+  s.author           = { 'cocoadogs' => 'cocoadogs@163.com' }
+  s.source           = { :git => 'https://github.com/cocoadogs/XJHNetworkAccessibility.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
