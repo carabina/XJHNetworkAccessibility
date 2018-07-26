@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XJHNetworkAccessibility'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XJHNetworkAccessibility.'
+  s.summary          = 'A iOS WiFi and cellulardata authorization detective Manager.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = '帮助解决app的wifi或者蜂窝移动数据授权检测模块'
 
   s.homepage         = 'https://github.com/许君浩/XJHNetworkAccessibility'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,7 +26,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/许君浩/XJHNetworkAccessibility.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'XJHNetworkAccessibility/Classes/**/*'
   
@@ -39,4 +37,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'ReactiveObjC', '~> 3.1.0'
 end
