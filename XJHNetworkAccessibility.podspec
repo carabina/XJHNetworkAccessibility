@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = '帮助解决app的wifi或者蜂窝移动数据授权检测模块'
 
-  s.homepage         = 'https://github.com/许君浩/XJHNetworkAccessibility'
+  s.homepage         = 'https://github.com/cocoadogs/XJHNetworkAccessibility'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '许君浩' => 'cocoadogs@163.com' }
